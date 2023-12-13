@@ -1,6 +1,7 @@
 body{
     background-image: url(slide.webp);
-
+   width: 80%;
+   margin: auto;
 }
 ul{
     padding-top: 8px;
@@ -9,6 +10,7 @@ li{
     display: inline;
     text-transform: uppercase;
     padding: 0px 8px;
+    color: red;
 }
 
 .sec1{
