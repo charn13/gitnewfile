@@ -1,0 +1,125 @@
+body{
+    background-image: url(slide.webp);
+
+}
+ul{
+    padding-top: 8px;
+}
+li{
+    display: inline;
+    text-transform: uppercase;
+    padding: 0px 8px;
+}
+
+.sec1{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+.sec1cant1{
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+.sec1cant2{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.clear{
+    clear: both;
+}
+
+/* section 1 end */
+/* section2
+ */
+ .sec2{
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+ }
+ .sec2cant1{
+    width: 50%;
+    
+    float: left;
+    text-align: center;
+    font-size: 25px;
+ }
+ .sec2cant2{
+    width: 50%;
+  
+    float: left;
+
+ }
+.sec2img{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+/* section3 */
+.sec{
+    width: 100%;
+}
+
+.sec3cant1{
+    width: 50%;
+    float: left;
+
+}
+.sec3cant2{
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 25px 0%;
+}
+.sec3img{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+
+@media screen and (max-width:998px) {
+    .sec1cant1{
+
+        width: 100%;
+       margin: auto;
+       padding-top: 5px;
+    }
+    .sec1cant2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .sec2cant1{
+        width: 100%;
+       text-align: center;
+       font-size: 15px;
+    }
+    .sec2cant2{
+        width: 100%;
+        
+    }
+    .sec2img{
+        display: block;
+        margin: auto;
+    }
+    /* section3 */
+    .sec3cant1{
+        width: 100%;
+    }
+    .sec3cant2{
+        width: 100%;
+        margin: auto;
+    }
+    .sec3img{
+        display: block;
+        margin: auto;
+    }
+        
+        
+}
